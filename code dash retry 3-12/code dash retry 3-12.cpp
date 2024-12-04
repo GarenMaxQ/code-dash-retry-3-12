@@ -57,6 +57,7 @@ int main()
 
 		//Allows user to select another feature
 		do {
+			featureAgain = true;
 			//Loop condition for invalid feature
 			do {
 				invalidFeature = false;
@@ -97,19 +98,19 @@ int main()
 						seatsBaby += seats;
 					}
 
-					featureAgain = true;
+	
 					break;
 				case'2':
 					cout << "You have selected Expanded Back" << endl;
 					cout << "Enter number of seats($5 per seat): " << endl;
 					cin >> seats;
-					featureAgain = true;
+	
 					break;
 				case'3':
 					cout << "You have selected Trailer" << endl;
 					cout << "Enter number of trailers($5 per trailer): " << endl;
 					cin >> seats;
-					featureAgain = true;
+
 					break;
 				case'4':
 					featureAgain = false;
